@@ -33,10 +33,7 @@
       </form>
 
     </div>
-<script>
-sleep(1000);
-document.getElementById("desire").innerHTML = "Or maybe you want a new Skylake processor!";
-</script>
+
     <div class="container">
 
       <section class="page-header">
@@ -80,5 +77,11 @@ document.getElementById("desire").innerHTML = "Or maybe you want a new Skylake p
         <script src="js/jquery.modal.min.js"></script>
 
     </div>
+      <script>
+         setTimeout(function() {
+document.getElementById("desire").innerHTML = "Or maybe you want a new Skylake processor!";
+         }, 3000);
+</script>
   </body>
+
 </html>
